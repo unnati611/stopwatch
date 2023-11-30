@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="task1.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="heading">
+        <h2>My StopWatch</h2>
+      </div>
+      <div class="date-time">
+        <div class="currenttime" id="time"></div>
+        <div class="currentdate" id="date"></div>
+      </div>
+    </div>
+    <div class="maincontent">
+      <div class="maindiv">
+        <div class="second">
+          <h3>Seconds</h3>
+          <div class="timer" id="countseconds"  >0 :</div>
+        </div>
+        <div class="minute">
+          <h3>Minutes</h3>
+          <div class="timer" id="countminutes">0 :</div>
+        </div>
+        <div class="hour">
+          <h3>Hours</h3>
+          <div class="timer" id="counthours">0</div>
+        </div>
+      </div>
+<div class="btncontainer">
+    <button class="btn" id="start" onclick="start()">Start</button>
+    <button class="btn" id="stop" onclick="stop()">Stop</button>
+    <button class="btn" id="reset" onclick="reset()">Reset</button>
+</div>
+    </div>
+    </div>
+
+    <script src="task1.js"></script>
+  </body>
+</html>
